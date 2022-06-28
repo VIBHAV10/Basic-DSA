@@ -13,7 +13,6 @@ class Graph{
     void addEdge(int u, int v)
     {
         adj[u][v]=1;
-        adj[v][u]=1;
     }
     bool DFS(int source, int parent, vector<bool>&visited)
     {
